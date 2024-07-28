@@ -1,0 +1,50 @@
+html,body{
+	margin: 0;;
+}
+
+#wrapper{
+	padding: 1em;
+	margin: -15px;	
+}
+
+#loader{
+	padding: 70px 0;
+	text-align: center;			
+}
+
+#loader img{
+	margin: auto;
+	display: block;
+}
+
+#content{
+	width: 1px;
+	height: 1px;
+	background: #264653; 	
+	padding: 10px;
+}
+
+#content-wrapper{
+	background: #2A9d8f;
+}
+
+h2.title{
+	font-family: fantasy;
+    color: #E9C46A;
+    font-size: 80px;	
+	margin-right: 25px;    
+}
+
+h4.title{
+	font-family: fantasy;
+    color: #F4A261;
+    font-size: 40px;	
+    margin-right: 25px;
+}
+
+h5.title{
+	font-family: fantasy;
+    color: #F4A261;
+    font-size: 20px;	
+    margin-right: 25px;
+}
