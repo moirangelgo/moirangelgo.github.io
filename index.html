@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>moi.work</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js" type="text/javascript"></script>
@@ -21,27 +22,215 @@
 			  </div>
 			</div>    
 
-			<div id="content" style="visibility : hidden;">
-				<div id="content-wrapper">
+			<div id="content" style="visibility : hidden;" class="row">
+				<div id="content-wrapper col-6">
 					<h2 class="title text-right">MOI.WORK</h2>
 					<h4 class="title text-right">Moises Rangel</h4>
-					<h5 class="title text-right">Software Engineer</h4>
+					<h5 class="title text-right">Computer Science Bachelor</h5>
+					<h6 class="title text-right">Software Engineer</h6>
 
 					<div class="row">
 						<div class="col-4">
 						</div>
 						<div class="col-4">
 						</div>
-						<div class="col-4">
-							<a href="javascript:void(0)">
+						<div class="col-3">
+							
+							<a href="#" data-bind="click: ()=>{ ShowInnerContent('python')}">
 								<span class="badge badge-success">Python</span>
 							</a>
-							<span class="badge badge-primary">.NET</span>
-							<span class="badge badge-warning">PHP</span>
-							<span class="badge badge-warning">Cloud Services</span>
-						</div>												
+							
+							<a href="#" data-bind="click: ()=>{ ShowInnerContent('dotnet')}">
+								<span class="badge badge-primary">.NET</span>
+							</a>
+							
+							<a href="#" data-bind="click: ()=>{ ShowInnerContent('php')}">
+								<span class="badge badge-warning">PHP</span>
+							</a>
+
+							<a href="#" data-bind="click: ()=>{ ShowInnerContent('projectmanagement')}">
+								<span class="badge badge-warning" style="background-color: blue; color: white">Project Managment</span>
+							</a>							
+							
+							<a href="#" data-bind="click: ()=>{ ShowInnerContent('cloudservices')}">
+								<span class="badge badge-warning" style="background-color: teal; color: white">Cloud Services</span>
+							</a>
+
+							<a href="#" data-bind="click: ()=>{ ShowInnerContent('machinelearning')}">
+								<span class="badge badge-warning"style="background-color: tomato; color: white">Machine Learning / IA</span>
+							</a>							
+
+						</div>
+						<div class="col-1">
+						</div>																		
 					</div>
 
+				</div>
+				<div class="col-6">
+					<!-- Content -->
+					<div class="row" id="the_content">
+						<div class="col-12">
+
+							<div class="welcome inner_content">
+								<div class="row brief">
+									<div class="col-12">
+										<img src="m.gif" style="margin-top: 10px;">
+										<br><br>
+										I am a software development enthusiast, in my early years my first program was written in Atari Basic and since then, i have been interested in learning 
+										all about the lifecycle development process in order to be able to create high quality digital solutions.
+
+										I've several years of experience as a software enginner, both front & back, with technologies like PHP, Python, Javascript, TypeScript and C# also as technical lead and arquitect. 
+
+										From all of this, i learned an important lesson: <strong>methodology matters,</strong> and this is my personal philosophy; Nowadays, my main languages for web and backend software development are C#, Python, PHP and Typescript, but always following a development methodology with good practices and software pattern design.
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="dotnet inner_content">
+								<h3 class="title">Dotnet</h3>
+								<div class="row brief">
+									<div class="col-12">
+										<p>
+											I've developed many enterprise level solutions in .NET with C#, on diferent architectures like N-Layers, Clean, CQRS & Microservices
+										</p>
+
+										<p>
+											Advanced level in following Python stack:
+										</p>
+
+										<ul>
+											<li>* ASP.NET</li>
+											<li>* C#</li>
+											<li>* Dotnet Core</li>
+											<li>* Webapi</li>
+											<li>* LinQ</li>
+											<li>* Entity Framework</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="php inner_content">
+								<h3 class="title">PHP Skills</h3>
+								<div class="row brief">
+									<div class="col-12">
+										<p>
+											I have 10+ years of experience with PHP development since PHP5 version, so i take special care about  performance and security in  each deployment.								
+										</p>
+
+										<p>
+											Advanced level in following PHP stack:
+										</p>
+
+										<ul>
+											<li>* PHP v5.x, PHP v7.x, PHP8.2</li>
+											<li>* Symfony & Doctrine</li>
+											<li>* Laravel & Eloquent</li>
+										</ul>
+
+									</div>
+								</div>
+							</div>
+
+
+							<div class="projectmanagement inner_content">
+								<h3 class="title">IT Project Management</h3>
+								<div class="row brief">
+									<div class="col-12">
+										<p>
+											I have 10+ years of experience leading succesfull IT teams.
+										</p>
+
+										<p>
+											Advanced level in following PM Methodologies:
+										</p>
+
+										<ul>
+											<li>* Scrum as Scrum Master and Scrum Member</li>
+											<li>* PMI</li>
+											<li>* Waterfall</li>
+										</ul>
+
+									</div>
+								</div>
+							</div>							
+
+
+							<div class="cloudservices inner_content">
+								<h3 class="title">Cloud Services</h3>
+								<div class="row brief">
+									<div class="col-12">
+										<p>
+											Advanced level in following Google Cloud Services:
+										</p>
+
+
+										<ul>
+											<li>* Cloud Tasks</li>
+											<li>* Pub/Sub</li>
+											<li>* Cloud Run</li>
+											<li>* Cloud Storage</li>
+											<li>* Cloud SQL</li>
+											<li>* Cloud Functions</li>
+										</ul>
+
+									</div>
+								</div>
+							</div>			
+
+							<div class="machinelearning inner_content">
+								<h3 class="title">AI Services</h3>
+								<div class="row brief">
+									<div class="col-12">
+										<p>
+											Advanced level in following Google Cloud AI Services:
+										</p>
+
+										<ul>
+											<li>* Document AI</li>
+											<li>* Natural Language AI</li>
+										</ul>
+
+									</div>
+								</div>
+							</div>														
+
+
+							<div class="python inner_content">
+
+								<h3 class="title">Python</h3>
+								<div class="row brief">
+									<div class="col-12">
+										<p>
+											I've developed many production level solutions in Python with Django and Flask; At last five years, specially microservices deployed on GCP or AWS
+										</p>
+
+										<p>
+											Advanced level in following Python stack:
+										</p>
+
+										<ul>
+											<li>* Python v2.7, Python v3.5> </li>
+											<li>* Django v4.x, Django 5.0</li>
+											<li>* Flask</li>
+											<li>* SQLAlchemy</li>
+										</ul>
+
+										<img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" width="100px">
+										<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/320px-Flask_logo.svg.png" width="100px">
+
+									</div>
+								</div>
+							</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Content -->
 				</div>
 			</div>
 		</div>
@@ -49,8 +238,11 @@
 		<script type="text/javascript">
 			
 			function MoiViewModel(){
-				this.Preload();
-				//this.Init();
+				var self = this;
+				self.current_section = ko.observable('welcome');
+
+				self.Preload();
+				// self.Init();
 			}
 
 			MoiViewModel.prototype.Preload = function() {
@@ -66,6 +258,14 @@
 					}
 				}, 1000);
 			};
+
+			MoiViewModel.prototype.ShowInnerContent = function(inner_content_name) {
+				var self = this;
+				$('.' + self.current_section()).fadeOut('slow', ()=>{
+					$('.' + inner_content_name).fadeIn('fast');
+					self.current_section(inner_content_name);
+				});
+			}
 
 			MoiViewModel.prototype.Init = function() {
 
@@ -84,10 +284,6 @@
 				timeline.to("#content", { y:-250 });
 				timeline.to("#content", {height: height, duration: .1});
 				timeline.to("#content", {width: width, duration: .5});
-
-				timeline.to("#content-wrapper", {width: width-width/2, duration: .5});
-				timeline.to("#content-wrapper", {height: height-10, duration: .5});
-				
 			};			
 
 			$(document).ready(()=>{
@@ -95,6 +291,5 @@
 			});
 
 		</script>
-
 	</body>
 </html>

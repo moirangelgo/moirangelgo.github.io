@@ -2,9 +2,22 @@ html,body{
 	margin: 0;;
 }
 
+#the_content .python,
+#the_content .dotnet,
+#the_content .projectmanagement,
+#the_content .cloudservices,
+#the_content .machinelearning,
+#the_content .php{
+	display: none;
+}
+
+#the_content h3,
+#the_content .brief{
+	color: white !important;
+}
+
 #wrapper{
-	padding: 1em;
-	margin: -15px;	
+	padding-left: 1em;
 }
 
 #loader{
@@ -42,9 +55,27 @@ h4.title{
     margin-right: 25px;
 }
 
+h3.title{
+	font-family: fantasy;
+    color: #F4A261;
+    font-size: 40px;	
+    margin-right: 25px;
+}
+
 h5.title{
 	font-family: fantasy;
     color: #F4A261;
     font-size: 20px;	
     margin-right: 25px;
+}
+
+h6.title{
+	font-family: fantasy;
+    color: #F4A261;
+    font-size: 16px;	
+    margin-right: 25px;
+}
+
+.inner_content{
+	margin-top: 10px;
 }
