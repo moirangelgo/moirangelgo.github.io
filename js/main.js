@@ -3,7 +3,6 @@ $(document).ready(function () {
 
   // Preload de imágenes manual
   const imagesToPreload = [
-    'assets/hero-bg.jpg',
     'assets/bg2.jpg'
   ];
 
