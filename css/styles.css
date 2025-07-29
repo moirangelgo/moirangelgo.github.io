@@ -32,7 +32,7 @@ p {
 
 .btn {
   display: inline-block;
-  background: #ff5f5f;
+  background: #204d74;
   color: #fff;
   padding: 12px 24px;
   text-decoration: none;
@@ -41,9 +41,9 @@ p {
 }
 
 .btn:hover {
-  background: #e14c4c;
+  background: #517697;
 }
-
+/*
 .hero {
   height: 100vh;
   background: url('../assets/hero-bg.jpg') center/cover fixed no-repeat;
@@ -57,7 +57,7 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 40px;
   border-radius: 10px;
-}
+}*/
 
 .projects {
   display: grid;
@@ -67,7 +67,7 @@ p {
 
 .project {
   background: #222;
-  padding: 20px;
+  padding: 0px;
   border-radius: 10px;
   transition: transform 0.3s ease;
 }
@@ -84,6 +84,7 @@ p {
 }
 
 
+/* --- Fade In --- */
 .fade-in {
   opacity: 0;
   transform: translateY(40px);
@@ -93,4 +94,141 @@ p {
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* --- Zoom In --- */
+.zoom-in {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.zoom-in.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* --- Fade In Left --- */
+.fade-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* --- Staggered reveal (con delay) --- */
+.stagger-container .stagger {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.stagger.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+#preloader {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #fff;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+body.loading {
+  overflow: hidden;
+}
+
+
+
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.background-video {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  /*filter: brightness(0.6);*/
+  height: 300vh;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    border: dotted 1px #535353;
+    padding: 2em;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .2);
+}
+
+.projects.stagger-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) !important;
+  gap: 2rem;
+}
+
+/* Opcional: para responsive en móviles */
+@media (max-width: 768px) {
+  .projects.stagger-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-cover h3{
+    background: rgba(0, 0, 0, .7);
+    padding: 5px;
+    color: white;    
+}
+
+.project-cover{
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 10em;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    padding: 10px;
+    color: white;	    
+}
+
+.project-brief{
+    padding: 10px;
 }

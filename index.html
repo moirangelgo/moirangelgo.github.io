@@ -7,38 +7,145 @@
   <link rel="stylesheet" href="css/styles.css" />
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="js/main.js" defer></script>
+
+  	<link rel="preload" href="assets/hero-bg.jpg" as="image">
+	<link rel="preload" href="assets/bg2.jpg" as="image">
+
 </head>
 <body>
+
+	<div id="preloader">
+	<div class="spinner"></div>
+	</div>
+
+
+<section class="hero">
+  <video autoplay muted loop playsinline class="background-video">
+    <source src="assets/hero-loop.min.mp4" type="video/mp4" />
+    Tu navegador no soporta video.
+  </video>
+  <div class="hero-content">
+    <h1>Moises Rangel</h1>
+    <p>Ingeniero de Software · Fullstack · 20+ años de experiencia</p>
+    <!--a href="#projects" class="btn">Ver portafolio</a-->
+	<!--a href="#projects" class="btn">Acerca de mi</a-->
+  </div>
+</section>
+
   <!-- Hero Section -->
-  <section class="hero parallax fade-in" id="hero">
+  <!--section class="hero parallax fade-in" id="hero">
     <div class="hero-content">
       <h1>Moises Rangel</h1>
       <p>Ingeniero de Software · Fullstack · 20+ años de experiencia</p>
       <a href="#projects" class="btn">Ver portafolio</a>
     </div>
-  </section>
+  </section-->
 
   <!-- About Section -->
   <section class="section fade-in" id="about">
     <div class="container">
       <h2>Sobre mí</h2>
-      <p>Soy un desarrollador fullstack con más de 20 años de experiencia creando soluciones para clientes del sector público y privado. Me especializo en sistemas web, plataformas educativas, y aplicaciones corporativas.</p>
-    </div>
+      <p>Desarrollador y líder técnico con más de 20 años de experiencia creando sistemas backend robustos, elegantes y escalables.</p>
+		<p>
+Mi trayectoria comenzó en los días de BASIC y Perl, y desde entonces he navegado por múltiples lenguajes y paradigmas —de C# y Python hasta TypeScript— cultivando una visión integral de la arquitectura, el diseño de software y las mejores prácticas de desarrollo.
+		</p>
+		<p>
+			Soy autodidacta por naturaleza, curioso por vocación y pragmático al resolver problemas. Creo en el código limpio, la arquitectura bien pensada y la simplicidad como forma de belleza técnica.
+Me apasiona combinar lógica con creatividad, ya sea diseñando una API bien estructurada o produciendo música en Ableton Live, una actividad que, como programar, requiere sensibilidad, ritmo y precisión.
+
+Valoro la colaboración, disfruto trabajar con equipos multidisciplinarios y me adapto con facilidad a contextos cambiantes.			
+
+		</p>
+	</div>
   </section>
 
   <!-- Projects Section -->
-  <section class="section parallax fade-in" id="projects">
-    <div class="container">
+  <section class="section parallax zoom-in" id="projects">
+    <div class="container projects stagger-container">
       <h2>Proyectos Destacados</h2>
       <div class="projects">
-        <div class="project">
-          <h3>CADEL LMS</h3>
-          <p>Plataforma de e-learning completa con control de roles y reportes detallados. VB.NET + SQL Server.</p>
+		
+        <div class="project stagger" >
+			<div class="project-cover" style=" background-image: url(assets/cadel.png);">
+				<h3>CADEL LMS</h3>
+			</div>
+
+			<div class="project-brief">
+				Plataforma de e-learning completa con control de roles y reportes detallados. VB.NET + SQL Server.				
+			</div>          
         </div>
-        <div class="project">
-          <h3>Extranet Toyota</h3>
-          <p>Módulos de evaluación y comparación de vehículos usando VB.NET y JATO API.</p>
-        </div>
+
+        <div class="project stagger" >
+			<div class="project-cover" style=" background-image: url(assets/calli.png);color:black">
+				<h3>Inmuebles Calli</h3>
+			</div>
+
+			<div class="project-brief">
+				Plataforma web para publicar inmuebles en venta y renta dentro la CDMX; una nueva opción para conectar corredores inmobiliarios con compradores.			
+			</div>          
+        </div>		
+
+        <div class="project stagger" >
+			<div class="project-cover" style=" background-image: url(assets/reembolsos.png);color:black">
+				<h3>Proceso de Reembolsos</h3>
+			</div>
+
+			<div class="project-brief">
+				Diseño de la arquitectura para la automatización de reembolsos.
+			</div>          
+        </div>		
+
+        <div class="project stagger" >
+			<div class="project-cover" style=" background-image: url(assets/mandarinas.png);color:black">
+				<h3>Informe Policial Homologado</h3>
+			</div>
+
+			<div class="project-brief">
+				Mantenimiento y desarrollo de nuevas versiones utilizando Python 3.6, Django y Django REST Framework, construyendo APIs REST robustas alineadas con estándares nacionales de seguridad.
+			</div>          
+        </div>				
+
+        <div class="project stagger" >
+			<div class="project-cover" style=" background-image: url(assets/infonavit.png);color:black">
+				<h3>Taller Saber para Decidir - INFONAVIT</h3>
+			</div>
+
+			<div class="project-brief">
+				Desarrollo de la capa de negocio con ActionScript 3.0 y Flex SDK. Integración con WebServices para seguimiento de actividad de usuarios.
+			</div>          
+        </div>		
+		
+        <div class="project stagger" >
+			<div class="project-cover" style=" background-image: url(assets/infotec.jpg);color:black">
+				<h3>Actas de Entrega-Recepción SAT-SAE (INFOTEC)</h3>
+			</div>
+
+			<div class="project-brief">
+				Desarrollo de software para proyectos de Gobierno Electrónico (SAGARPA, SAE), supervisando la planificación, seguimiento y ejecución de tareas técnicas. Segunda fase del proyecto “Transferencia de Actas SAT–SAE”.
+			</div>          
+        </div>	
+		
+        <div class="project stagger" >
+			<div class="project-cover" style=" background-image: url(assets/profordems.png);color:black">
+				<h3>Profordems (ANUIES)</h3>
+			</div>
+
+			<div class="project-brief">
+				Sistema de Inscripciones para el “Diplomado en Competencias Docentes”: Diseñé y desarrollé un sistema web para la gestión de registros de usuarios y aulas virtuales, atendiendo a más de 15,000 usuarios mensuales durante más de cinco años en múltiples universidades a nivel nacional.
+			</div>          
+        </div>			
+
+        <div class="project stagger" >
+			<div class="project-cover" style=" background-image: url(assets/pfizer.webp);color:black">
+				<h3>Pfizer</h3>
+			</div>
+
+			<div class="project-brief">
+ 				Sistema interno para autorización de créditos y gestión de compras, integrado con Oracle/PeopleSoft. Desarrollo en Visual Basic .NET + SQL Server.				
+			</div>          
+        </div>					
+
+
       </div>
     </div>
   </section>
@@ -47,7 +154,7 @@
   <section class="section fade-in" id="contact">
     <div class="container">
       <h2>Contacto</h2>
-      <p>¿Tienes un proyecto en mente? Escríbeme: <a href="mailto:moirangelgo@gmail.com">moirangelgo@gmail.com</a></p>
+      <p>¿Tienes un proyecto en mente? Escríbeme: <a href="mailto:moirangelgo@gmail.com" style="color:white">moises.rangel.go@gmail.com</a></p>
     </div>
   </section>
 </body>
