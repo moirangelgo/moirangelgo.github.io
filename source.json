@@ -1,0 +1,619 @@
+{
+  "picture": {
+    "hidden": false,
+    "url": "/self.webp",
+    "size": 64,
+    "rotation": 0,
+    "aspectRatio": 0.5,
+    "borderRadius": 10,
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "borderWidth": 1,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 10
+  },
+  "basics": {
+    "name": "Lic. Moisés Rangel Narváez",
+    "headline": "Technical Lead | Python Developer Sr",
+    "email": "moises.rangel.go@gmail.com",
+    "phone": "+52 5534368722",
+    "location": "CDMX, México",
+    "website": {
+      "url": "https://moirangelgo.github.io",
+      "label": ""
+    },
+    "customFields": []
+  },
+  "summary": {
+    "title": "Perfil",
+    "columns": 1,
+    "hidden": false,
+    "content": "<p>Desarrollador Python Senior y Arquitecto de Soluciones con 20 años de experiencia transformando requerimientos complejos en sistemas escalables. Experto en la construcción de ecosistemas robustos utilizando  <strong>FastAPI, Django y Flask</strong>, con un enfoque riguroso en <strong>Clean Code, DDD y arquitecturas dirigidas por eventos</strong>.</p><p>Complemento mi sólida base técnica con una <strong>formación continua en Data Science e Inteligencia Artificial</strong>, orientada a resolver desafíos de ingeniería mediante la toma de decisiones basada en evidencia. Soy un apasionado de la excelencia técnica y la mentoría, asegurando que cada solución contribuya a una infraestructura  preparada para el futuro.</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "Repositorios",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "ryk8gtdne60gxafqojkxoh5v",
+          "hidden": false,
+          "icon": "bitbucket",
+          "iconColor": "",
+          "network": "Bitbucket",
+          "username": "moisesrangel",
+          "website": {
+            "url": "https://bitbucket.org/moisesrangel",
+            "label": "Bitbucket Projects",
+            "inlineLink": false
+          }
+        },
+        {
+          "id": "qwgpkinqqd5h430m5jotc6j5",
+          "hidden": false,
+          "icon": "credly",
+          "iconColor": "",
+          "network": "Credly",
+          "username": "moises-rangel-narvaez",
+          "website": {
+            "url": "https://www.credly.com/users/moises-rangel-narvaez",
+            "label": "",
+            "inlineLink": false
+          }
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019e2240-959f-709b-9c76-8d5267fb7996",
+          "hidden": false,
+          "company": "Joyerías Bizzarro",
+          "position": "Scrum Master Sr / Desarrollador Python Sr",
+          "location": "CDMX, México",
+          "period": "2025-Actual",
+          "website": {
+            "url": "https://www.joyeriasbizzarro.com",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "",
+          "roles": [
+            {
+              "id": "019e2241-2cc3-776e-aca7-7ff9a41d445b",
+              "position": "Desarrollador Python Sr",
+              "period": "2025-2026",
+              "description": "<p><strong>Proyecto: Flota IoT Bizzarro Nexus (Stack: Python/AWS)</strong> <em>Desarrollé el backend de ingesta y procesamiento de datos para 170 dispositivos IoT utilizando </em><strong><em>FastAPI</em></strong><em> y contenedores en </em><strong><em>AWS Fargate</em></strong><em>. </em>Diseñé la estrategia de persistencia y ciclo de vida de datos en <strong>RDS PostgreSQL/TimescaleDB</strong>, optimizando latencias críticas mediante <em>Continuous Aggregates</em> y políticas de retención automática. <em>Orquesté la comunicación segura de dispositivos vía  </em><strong><em>VPN Site-to-Site</em></strong><em>, garantizando la integridad de los datos desde el Edge hasta la Nube. </em>Automaticé tareas de conciliación de datos con <strong>SAP</strong> mediante <em>Cron Jobs</em> en Python, transformando eventos masivos en métricas estratégicas de negocio. (<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://pyarchitect.substack.com/p/del-sniffing-de-senales-al-kpi-de\">https://pyarchitect.substack.com/p/del-sniffing-de-senales-al-kpi-de</a>)</p>"
+            },
+            {
+              "id": "019e224b-11be-75b8-a736-133a5e9f687a",
+              "position": "Scrum Master Sr",
+              "period": "2025-2026",
+              "description": "<p><strong>Scrum Master / Agile Lead</strong> <em> </em><strong><em>Facilitación y Task Management:</em></strong><em> Dirigí la planificación y ejecución de sprints para equipos multidisciplinarios, asegurando que la arquitectura técnica y los objetivos de negocio estuvieran alineados en cada entrega. </em> <strong>Análisis de Desempeño:</strong> Implementé tableros de control para monitorear la salud del proyecto (KPIs), permitiendo la toma de decisiones basada en evidencia y la mitigación proactiva de riesgos. * <strong>Optimización de Procesos:</strong> Fomenté la adopción de pruebas automatizadas y revisiones de código como parte del \"Definition of Done\", elevando los estándares de excelencia técnica y reduciendo la deuda técnica del equipo. Configuración de todo el flujo de trabajo en Jira Cloud</p>"
+            }
+          ]
+        },
+        {
+          "id": "t6h2912qmuyv4vhsb8ugs8e7",
+          "hidden": false,
+          "company": "Kratos Soluciones Integrales",
+          "position": "Solutions Architect & Tech Lead",
+          "location": "CDMX, México",
+          "period": "2023 - 2025",
+          "website": {
+            "url": "https://www.kratosconsultores.com.mx",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p><em>Lideré la arquitectura y ejecución de soluciones cloud-native, coordinando equipos técnicos y asegurando la entrega dentro de objetivos de negocio y presupuesto.</em><br><br><strong>Gestión de Equipos &amp; Mentoría:</strong> Dirigí y mentoricé equipos  de desarrollo, estableciendo estándares de calidad que <strong>redujeron los bugs en producción en un 30%</strong> y aceleraron la curva de aprendizaje de nuevos colaboradores.</p><ul><li><p><strong>Arquitectura de Microservicios Escalables:</strong> Diseñé e implementé una plataforma de microservicios con gRPC/Protobuf + Apollo GraphQL en GCP, <strong>mejorando el rendimiento en un 20%</strong> y <strong>reduciendo la latencia a </strong>para operaciones críticas.</p></li><li><p><strong>Gestión de Proyectos &amp; Presupuestos:</strong> Supervisé cronogramas y presupuestos de múltiples proyectos, <strong>entregando el 75% de las iniciativas dentro del plazo y presupuesto</strong> establecidos, mientras mantenía los estándares de calidad técnica.</p></li><li><p><strong>Arquitectura Orientada a Eventos:</strong> Implementé patrones CQRS y Event-Driven Architecture con .NET Core y RabbitMQ, <strong>logrando un desacoplamiento del sistema que permitió escalar horizontalmente</strong> y <strong>redujo las dependencias críticas</strong>.</p></li></ul><p></p>",
+          "roles": []
+        },
+        {
+          "id": "p5kmvcebg1eero2wyk8wyzh7",
+          "hidden": false,
+          "company": "Mandarin Projects",
+          "position": "Python Developer",
+          "location": "CDMX, México",
+          "period": "2021-2023",
+          "website": {
+            "url": "https://mandarinprojects.mx",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p><em>Contribuí significativamente en proyectos críticos de seguridad pública, asumiendo progresivamente mayores responsabilidades técnicas y de coordinación entre equipos.</em></p><ul><li><p><strong>Desarrollo de Sistema de Informes Policiales:</strong> Lideré la implementación del \"Informe Policial Homologado\" utilizando Django REST Framework, <strong>garantizando el cumplimiento de estándares nacionales</strong> y <strong>entregando APIs confiables para el procesamiento de datos sensibles</strong>.</p></li><li><p><strong>Aplicación Multiplataforma para Registro de Detenidos:</strong> Encabecé el desarrollo frontend y backend del \"Registro Estatal de Detenidos\" con ElectronJS y VueJS, <strong>creando una solución unificada que reemplazó sistemas fragmentados</strong> existentes.</p></li><li><p><strong>Arquitectura Backend Optimizada:</strong> Diseñé e implementé una arquitectura combinando PostgreSQL con Hasura GraphQL y microservicios en Flask, <strong>logrando una base técnica sólida que permitió iteraciones rápidas</strong> y <strong>facilitó la integración de nuevos módulos</strong>.</p></li><li><p><strong>Coordinación Técnica Efectiva:</strong> Gestioné la coordinación entre equipos de frontend y backend, <strong>estableciendo protocolos de comunicación que mejoraron la eficiencia del desarrollo</strong> y <strong>asegurando la coherencia arquitectónica</strong> entre diferentes componentes del sistema.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "fid09twjr0ukx5zvq2n1v2bc",
+          "hidden": false,
+          "company": "Revarts Studio",
+          "position": "IT Manager & Desarrollador Full-Stack",
+          "location": "CDMX, México",
+          "period": "2017-2019",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p> <em>Gestioné proyectos de TI end-to-end, combinando liderazgo técnico con desarrollo hands-on para entregar soluciones web completas desde la infraestructura hasta la interfaz de usuario.</em></p><ul><li><p><strong>Arquitectura y Desarrollo Full-Stack:</strong> Lideré la creación de soluciones software personalizadas, <strong>diseñando tanto la infraestructura backend como las interfaces frontend</strong> que cumplían con los requerimientos específicos de cada cliente.</p></li><li><p><strong>Gestión Integral de Proyectos:</strong> Gestioné la planificación y ejecución de proyectos, <strong>elaborando propuestas técnicas, estimando tiempos y presupuestos, y apoyando al equipo comercial</strong> en la definición de alcances técnicos.</p></li><li><p><strong>Infraestructura Cloud en AWS:</strong> Implementé y mantuve servidores en AWS EC2 para producción, <strong>configurando entornos estables y optimizados</strong> que soportaron aplicaciones como <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://www.frontdoorcorp.com\">www.frontdoorcorp.com</a>.</p></li><li><p><strong>Desarrollo de APIs Escalables:</strong> Construí APIs RESTful con Django REST Framework que <strong>sirvieron como base confiable para aplicaciones móviles y web</strong>, implementando autenticación, permisos y endpoints eficientes.</p></li><li><p><strong>Aplicaciones Web Modernas:</strong> Desarrollé la SPA para <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://www.frontdoorcorp.com\">www.frontdoorcorp.com</a> usando KnockoutJS y RequireJS, <strong>creando una experiencia de usuario fluida y responsiva</strong> que mejoró la interacción con la plataforma.</p></li><li><p><strong>Automatización de Calidad:</strong> Establecí pipelines de CI con Jenkins y Bitbucket, <strong>integrando pruebas automatizadas con Selenium</strong> que mejoraron la detección temprana de errores y la confiabilidad de los despliegues.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "019e222d-db6c-73bd-b9d3-0803483e0634",
+          "hidden": false,
+          "company": "Infotec",
+          "position": "Technical Lead",
+          "location": "CDMX, México",
+          "period": "2014-2015",
+          "website": {
+            "url": "https://www.infotec.mx",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p><strong>Liderazgo en Proyectos de Gobierno Electrónico</strong></p><ul><li><p>Dirigí la gestión de TI y desarrollo de software para proyectos estratégicos (SAGARPA, SAE), supervisando planificación, seguimiento y ejecución de iniciativas técnicas</p></li><li><p>Coordiné equipos multidisciplinarios asegurando la alineación con objetivos y entregas oportunas en ambientes gubernamentales</p></li></ul><p><strong>Arquitectura y Desarrollo Frontend</strong></p><ul><li><p>Diseñé e implementé arquitectura SPA con KnockoutJS y RequireJS, mejorando rendimiento y mantenibilidad de aplicaciones web</p></li><li><p>Participé en el desarrollo de módulos funcionales para el proyecto \"Transferencia de Actas SAT-SAE\", fortaleciendo interoperabilidad entre sistemas</p></li></ul><p><strong>Gestión de Calidad y Conocimiento</strong></p><ul><li><p>Gestioné control de versiones con Git y flujos de despliegue, garantizando integridad del código y procesos de implementación sin contratiempos</p></li><li><p>Impulsé la capacitación técnica en arquitectura SPA y KnockoutJS, desarrollando habilidades del equipo y fomentando intercambio de conocimientos</p></li></ul><p></p>",
+          "roles": []
+        },
+        {
+          "id": "019e2230-26d6-7194-bccb-75b97dc191ee",
+          "hidden": false,
+          "company": "ANUIES",
+          "position": "PHP Developer",
+          "location": "CDMX, México",
+          "period": "2012-2014",
+          "website": {
+            "url": "https://www.anuies.mx",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p><strong>Desarrollo de Sistemas de e-Learning a Gran Escala</strong></p><ul><li><p>Diseñé y desarrollé un sistema web de inscripciones para el \"Diplomado en Competencias Docentes\" que gestionó <strong>más de 15,000 usuarios mensuales</strong> durante <strong>cinco años</strong> consecutivos</p></li><li><p>Implementé arquitectura backend con control de acceso de usuarios y optimización de bases de datos para garantizar rendimiento sostenido</p></li><li><p>Desarrollé mecanismos de gestión de registros y aulas virtuales utilizadas en múltiples universidades a nivel nacional</p></li></ul><p><strong>Sistema de Tickets y Soporte Técnico</strong></p><ul><li><p>Creé una aplicación de Helpdesk completa con PHP y Symfony para agilizar solicitudes de soporte</p></li><li><p>Diseñé la base de datos MySQL y desarrollé la interfaz frontend con Prototype/Scriptaculous</p></li><li><p>Implementé flujos de trabajo para gestión eficiente de tickets y seguimiento de solicitudes</p></li></ul><p><strong>Desarrollo Frontend y Experiencia de Usuario</strong></p><ul><li><p>Realicé el diseño gráfico y desarrollo frontend del \"Programa de Formación Docente\" usando XHTML/CSS y jQuery</p></li><li><p>Garanticé interfaz responsiva y accesible mediante implementación de estándares web modernos</p></li><li><p>Optimicé la experiencia de usuario across diferentes dispositivos y navegadores</p></li></ul><p></p>",
+          "roles": []
+        },
+        {
+          "id": "019e2230-be31-74c7-95a5-11af7d269c95",
+          "hidden": false,
+          "company": "Abargon",
+          "position": "Fullstack Developer",
+          "location": "CDMX, México",
+          "period": "2009-2012",
+          "website": {
+            "url": "https://www.abargon.com",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p><strong>Desarrollo Full-Stack para Clientes Corporativos</strong></p><ul><li><p>Diseñé y desarrollé aplicaciones web full-stack utilizando PHP, ASP 3.0, Visual Basic .NET y ActionScript/Flash para clientes como Infonavit, Pfizer, Grupo Bimbo y Toyota</p></li><li><p>Implementé soluciones con múltiples bases de datos (MySQL, SQL Server, Oracle) y frameworks como Fusebox, Symfony y KumbiaPHP</p></li></ul><p><strong>Plataformas de E-learning y Sistemas Educativos</strong></p><ul><li><p>Desarrollé la capa de negocio con ActionScript 3.0 y Flex SDK para Talleres Infonavit, integrando WebServices para seguimiento de usuarios</p></li><li><p>Creé contenido educativo interactivo en Flash con framework personalizado en ActionScript 2.0 para Pfizer México/UNAM, implementando carga dinámica vía XML</p></li></ul><p><strong>Sistemas Administrativos y Herramientas Empresariales</strong></p><ul><li><p>Construí Carwebtool para Pfizer México con Visual Basic .NET + SQL Server, integrado con Oracle/PeopleSoft para autorización de créditos</p></li><li><p>Desarrollé Bimbo Autovend en PHP + Fusebox + MySQL para gestión de pedidos en extranet de Grupo Bimbo</p></li><li><p>Implementé sistema Helpdesk para SEP con Symfony y MySQL para manejo de solicitudes de soporte técnico</p></li></ul><p><strong>Sitios Corporativos y Aplicaciones Web</strong></p><ul><li><p>Mantenimiento y mejoras de sitio corporativo de Grupo Bimbo con PHP + Fusebox + MySQL</p></li><li><p>Desarrollo de sitios para marcas farmacéuticas de Pfizer usando ASP 3.0</p></li><li><p>Implementación de sitio AngelSoft 2.0 para Georgia-Pacific con PHP5 y Ajax (Mootools)</p></li><li><p>Creación de sistema de seguimiento legislativo con PHP + KumbiaPHP + MySQL para iniciativas del Congreso</p></li></ul><p><strong>Herramientas Multimedia e Interactivas</strong></p><ul><li><p>Desarrollé catálogo interactivo en Flash para Schneider Electric con generación de PDFs dinámicos</p></li><li><p>Creé CD multimedia educativo para México Desconocido con Flash MX + ActionScript 2.0 + XML</p></li></ul><p></p>",
+          "roles": []
+        },
+        {
+          "id": "019e2231-5c38-7438-a23a-64bd6f30e9c9",
+          "hidden": false,
+          "company": "Universidad del Valle de México",
+          "position": "E-learning Systems & Multimedia Developer ",
+          "location": "CDMX, México",
+          "period": "2006-2009",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p><strong>Desarrollo de Plataformas Educativas y LMS</strong></p><ul><li><p>Diseñé y desarrollé el sistema CADEL LMS con <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://VB.NET\">VB.NET</a>, ActionScript 2.0 y SQL Server, implementando gestión dinámica de cursos, foros, exámenes y control de acceso por roles</p></li><li><p>Creé múltiples cursos en línea usando ASP 3.0 y SQL Server para capacitación corporativa, incluyendo \"Selling MS Exchange 2000 Server\" y \"Presentaciones Ejecutivas con PowerPoint\"</p></li></ul><p><strong>Sistemas de Aprendizaje en Salud y Farmacéutica</strong></p><ul><li><p>Desarrollé sistemas educativos interactivos para productos farmacéuticos como \"Ketek\" (Aventis) usando Authorware 8 y \"Lipitor\"/\"Celebrex\" (Pfizer) con Flash 6/ActionScript 2.0</p></li><li><p>Implementé flujos instruccionales completos y contenido interactivo para capacitación médica especializada</p></li></ul><p><strong>Plataformas Académicas y Herramientas Institucionales</strong></p><ul><li><p>Construí \"PlanificaNet\" v1 para CONAPO con PHP 4/MySQL y plataforma de evaluación en línea con ASP 3.0/MS Access</p></li><li><p>Desarrollé sistemas de apoyo instruccional con <a target=\"_blank\" rel=\"noreferrer\" href=\"https://vb.net/SQL\">VB.NET/SQL</a> Server y páginas para facultad UVM con acceso a expedientes académicos</p></li><li><p>Implementé revista electrónica \"Episteme\" con ASP 3.0/MS Access para publicación académica</p></li></ul><p><strong>Tecnologías Móviles y Multimedia</strong></p><ul><li><p>Creé tutorial de Outlook para Pocket PC optimizado para dispositivos móviles usando Flash Lite/ActionScript 2.0</p></li><li><p>Desarrollé curso \"Hablemos de Sexualidad Familiar\" para CONAPO con PHP 4/MySQL</p></li><li><p>Gestioné infraestructura con servidor Fedora 7 para proyecto ALFA de colaboración interinstitucional</p></li></ul><p></p>",
+          "roles": []
+        }
+      ]
+    },
+    "education": {
+      "title": "Educación",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "czvm165g86apltnivoa6pcid",
+          "hidden": false,
+          "school": "Unir",
+          "degree": "Maestría",
+          "area": "Data Science",
+          "grade": "",
+          "location": "",
+          "period": "Current",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        },
+        {
+          "id": "bwuik6hia1244kk5sbrv848f",
+          "hidden": false,
+          "school": "Ceneval",
+          "degree": "Licenciatura",
+          "area": "Ciencias Computacionales",
+          "grade": "",
+          "location": "",
+          "period": "2018",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": ""
+        },
+        {
+          "id": "gg60j6ria9q5xfusu2bd5xgb",
+          "hidden": false,
+          "school": "Arturo Rosenbluth",
+          "degree": "Diploma",
+          "area": "Administración de Projectos (PMI)",
+          "grade": "",
+          "location": "",
+          "period": "2012",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p>Diploma in Project Management with PMI</p>"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projectos",
+      "columns": 1,
+      "hidden": true,
+      "items": []
+    },
+    "skills": {
+      "title": "Skills",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "uo44ha2u0air2nv7vsnawpih",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Programming Languages",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "Python",
+            "TypeScript",
+            "PHP",
+            "JavaScript",
+            "C#"
+          ]
+        },
+        {
+          "id": "cy3o4nxrv2re0va86zp1w89s",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Frameworks / Tools",
+          "proficiency": "",
+          "level": 5,
+          "keywords": [
+            "Django",
+            "DRF",
+            "Flask",
+            ".NET Core",
+            "ReactJS",
+            "gRPC",
+            "GraphQL"
+          ]
+        },
+        {
+          "id": "dj419mh0bmpzlj8b697icf46",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Arquitecturas",
+          "proficiency": "",
+          "level": 4,
+          "keywords": [
+            "CQRS",
+            "Event-Driven Architecture",
+            "Microservicios"
+          ]
+        },
+        {
+          "id": "d7z1p1n0ktua07upfbx19xmq",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Google Cloud Platform",
+          "proficiency": "",
+          "level": 4,
+          "keywords": [
+            "Cloud Run",
+            "Cloud Functions",
+            "PubSub",
+            "Storage",
+            "Document AI",
+            "CloudSQL",
+            "VertexAI"
+          ]
+        },
+        {
+          "id": "iweme3qzbiwalkaln56lv9c9",
+          "hidden": false,
+          "icon": "",
+          "iconColor": "",
+          "name": "Amazon Web Services",
+          "proficiency": "",
+          "level": 2,
+          "keywords": [
+            "EC2",
+            "S3",
+            "Route53"
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "title": "Idiomas",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "pmv3bvg70it02q965tajuynw",
+          "hidden": false,
+          "language": "English",
+          "fluency": "Avanzado",
+          "level": 4
+        }
+      ]
+    },
+    "interests": {
+      "title": "Habilidades de Liderazgo",
+      "columns": 2,
+      "hidden": true,
+      "items": []
+    },
+    "awards": {
+      "title": "Awards",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "Certificaciones",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "h92tuovph4y8bjn45n6dbjdq",
+          "hidden": false,
+          "title": "Scrum Foundations",
+          "issuer": "Certiprof",
+          "date": "Noviembre 2024",
+          "website": {
+            "url": "https://www.credly.com/badges/b6d0307c-f752-4b2b-8ef5-fece9fd67c1d",
+            "label": "Credly Verification",
+            "inlineLink": false
+          },
+          "description": ""
+        },
+        {
+          "id": "imd0qq4dprcrb1ap23tvs259",
+          "hidden": false,
+          "title": "Prompt Design in Vertex AI",
+          "issuer": "",
+          "date": "8/24/2025",
+          "website": {
+            "url": "https://www.credly.com/badges/6f04b22b-9513-4ec2-9778-5e3f9a237425/public_url",
+            "label": "Credly Verification",
+            "inlineLink": false
+          },
+          "description": ""
+        },
+        {
+          "id": "jj64o6l0jesix4qrsou16sre",
+          "hidden": false,
+          "title": "Prompt Engineering Foundation",
+          "issuer": "Certiprof",
+          "date": "Noviembre 2024",
+          "website": {
+            "url": "https://www.credly.com/badges/b0800d06-9c97-468c-99be-304d95e2a979",
+            "label": "Credly Verification",
+            "inlineLink": false
+          },
+          "description": ""
+        },
+        {
+          "id": "pyict5l5uhxklohvis8w4v4j",
+          "hidden": false,
+          "title": "Business Intelligence Foundation",
+          "issuer": "Certiprof",
+          "date": "Noviembre 2024",
+          "website": {
+            "url": "https://www.credly.com/badges/099d1dcf-4412-4535-a019-1aa6ef2c5ab0",
+            "label": "Credly Verification",
+            "inlineLink": false
+          },
+          "description": ""
+        },
+        {
+          "id": "jycbtb7tlfgs2ek07mxjv9p2",
+          "hidden": false,
+          "title": "EF Set English Certification",
+          "issuer": "English First",
+          "date": "Noviembre 2024",
+          "website": {
+            "url": "https://cert.efset.org/es/cY29Kx",
+            "label": "EF Certification",
+            "inlineLink": false
+          },
+          "description": ""
+        }
+      ]
+    },
+    "publications": {
+      "title": "Publications",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019e232a-48c0-771c-b10b-714186b22bdb",
+          "hidden": false,
+          "title": "Transformando señales invisibles en decisiones de negocio",
+          "publisher": "moirangel",
+          "date": "",
+          "website": {
+            "url": "https://pyarchitect.substack.com/p/del-sniffing-de-senales-al-kpi-de",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<p></p>"
+        }
+      ]
+    },
+    "volunteer": {
+      "title": "Volunteering",
+      "columns": 1,
+      "hidden": true,
+      "items": []
+    },
+    "references": {
+      "title": "References",
+      "columns": 1,
+      "hidden": true,
+      "items": []
+    }
+  },
+  "customSections": [
+    {
+      "title": "Skills",
+      "columns": 1,
+      "hidden": false,
+      "id": "f7yedhh6e0ynonjezfwmc2sd",
+      "type": "experience",
+      "items": [
+        {
+          "id": "x7qaozgs565ns4c9owposok0",
+          "hidden": false,
+          "company": "Soft Skills",
+          "position": "",
+          "location": "",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p><strong>Arquitectura de Sistemas con Python:</strong> Capacidad para alinear la arquitectura técnica con los objetivos de negocio, seleccionando el stack adecuado (<strong>FastAPI vs. Django</strong>) para asegurar escalabilidad y sostenibilidad a largo plazo.</p></li><li><p><strong>Toma de Decisiones en Entornos Críticos:</strong> Experiencia liderando la definición de arquitecturas fundamentales (Microservicios, Serverless), priorizando la entrega de valor y la estabilidad en ecosistemas distribuidos.</p></li><li><p><strong>Innovación en IA y Automatización:</strong> Impulsor de tecnologías emergentes como <strong>RAG e IA Generativa</strong>, utilizando librerías de Python para la orquestación de agentes y optimización de procesos de ingeniería.</p></li><li><p><strong>Excelencia Técnica y Mentoría:</strong> Fomento de mejores prácticas de desarrollo en el equipo, implementando <strong>Type Hinting, Tests Unitarios (Pytest)</strong> y revisiones de código que reducen significativamente la deuda técnica y los bugs en producción.</p></li><li><p><strong>Comunicación Interfuncional:</strong> Experto en traducir arquitecturas complejas de backend a stakeholders no técnicos, asegurando la alineación entre la visión del negocio y la implementación en código.</p></li></ul><ul><li><p><strong>Ingeniería de Alto Rendimiento:</strong> Resolución de desafíos técnicos mediante el uso de arquitecturas desacopladas (<strong>Event-Driven</strong>) y procesamiento asíncrono con Python, permitiendo un escalamiento horizontal eficiente.</p></li><li><p><strong>Optimización basada en Datos:</strong> Aplicación de principios analíticos para el diagnóstico de cuellos de botella en el código y la optimización de latencias críticas en APIs y capas de persistencia (PostgreSQL/Redis).</p></li><li><p><strong>Enfoque Pragmático y Limpio:</strong> Aplicación rigurosa de patrones de diseño y <strong>Clean Architecture</strong> para construir sistemas mantenibles, modulares y fáciles de evolucionar bajo el ecosistema Python.</p></li></ul><p></p>",
+          "roles": []
+        }
+      ]
+    },
+    {
+      "title": "Proyectos de Inovación",
+      "columns": 1,
+      "hidden": false,
+      "id": "jsc8u8ggmm55d7578fos4shq",
+      "type": "experience",
+      "items": [
+        {
+          "id": "wq8jivvz34f2xrvauwn865e7",
+          "hidden": false,
+          "company": "MoiGPT: Plataforma de Due-Diligence Técnica con IA |",
+          "position": "",
+          "location": "",
+          "period": "",
+          "website": {
+            "url": "https://moigpt.streamlit.app",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p>Diseñé y desarrollé una aplicación de IA conversacional (RAG) que <strong>automatiza el proceso de screening técnico</strong>, permitiendo explorar mi experiencia profesional en tiempo real.</p></li><li><p><strong>Demuestra mi liderazgo en innovación:</strong> desde la concepción de la solución hasta el despliegue de una arquitectura cloud escalable.</p></li><li><p><strong>Reduce el tiempo de evaluación</strong> para las empresas y sirve como case study de mi capacidad para aplicar IA generativa y crear valor tangible.</p></li></ul>",
+          "roles": []
+        },
+        {
+          "id": "hyhyp7v820ovnpu21m5pw2ba",
+          "hidden": false,
+          "company": "Inmuebles Calli - Plataforma Inmobiliaria Digital",
+          "position": "",
+          "location": "",
+          "period": "",
+          "website": {
+            "url": "https://www.inmueblescalli.com",
+            "label": "",
+            "inlineLink": false
+          },
+          "description": "<ul><li><p><strong>Liderazgo Técnico:</strong> Dirigí el desarrollo end-to-end de una plataforma full-stack que modernizó la gestión de propiedades y prospectos para el sector inmobiliario.</p></li><li><p><strong>Arquitectura Escalable:</strong> Diseñé e implementé un backend con Django REST Framework (JWT, permisos por rol, APIs RESTful) y frontend con ReactJS + Ant Design, integrando Google Maps y panel de administración.</p></li><li><p><strong>Despliegue Profesional:</strong> Establecí la infraestructura con Docker + Nginx, implementando CI/CD con GitHub Actions y optimizaciones SEO para garantizar disponibilidad y rendimiento en producción.</p></li></ul>",
+          "roles": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "template": "chikorita",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "summary",
+            "education",
+            "f7yedhh6e0ynonjezfwmc2sd",
+            "experience",
+            "jsc8u8ggmm55d7578fos4shq",
+            "projects",
+            "volunteer",
+            "references",
+            "awards",
+            "interests"
+          ],
+          "sidebar": [
+            "skills",
+            "languages",
+            "profiles",
+            "certifications",
+            "publications"
+          ]
+        }
+      ]
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 20,
+      "marginY": 39,
+      "format": "a4",
+      "locale": "en-US",
+      "hideIcons": true
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "rgba(2, 77, 96, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "Open Sans",
+        "fontWeights": [
+          "400"
+        ],
+        "fontSize": 9.9375,
+        "lineHeight": 2
+      },
+      "heading": {
+        "fontFamily": "Open Sans",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 12.9375,
+        "lineHeight": 2
+      }
+    },
+    "notes": ""
+  }
+}
